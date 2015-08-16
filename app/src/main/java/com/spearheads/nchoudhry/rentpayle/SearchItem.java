@@ -53,11 +53,10 @@ public class SearchItem extends AsyncTask<String,Void,String> {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-            //push
         }
         return chained.toString();
     }
-
+    // Pushing
     @Override
     protected void onPostExecute(String result){
         super.onPostExecute(result);
