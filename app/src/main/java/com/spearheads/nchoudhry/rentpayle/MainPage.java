@@ -33,6 +33,7 @@ public class MainPage extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            int i = 0;
             return true;
         }
 
